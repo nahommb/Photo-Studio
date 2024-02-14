@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    background-color:white;
+    height: 100px;
+    border-bottom-left-radius: 100px;
+    position: relative;
+    top: 0px;
+    z-index: 11;
+}
+.boarding{
+    background-image: url('/src/Assets/back1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+}
+.bodyy{
+    width: 200px;
+    background-color: aqua;
+    max-height: 120px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 600px;
+    overflow-x: scroll;
+}
+.bodyy::-webkit-scrollbar{
+    width: 0px;
+}
+.bodyy .dv1{
+    background-color: blue;
+    height: 500px;
+    min-width: 110px;
+}
