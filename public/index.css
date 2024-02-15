@@ -23,15 +23,22 @@
     position: absolute;
     top: 0px;
 }
+
+.middle-section{
+     position: relative; 
+     top: 600px;
+     display: flex;
+     align-items: center;
+     background-color: aliceblue;
+     justify-content: space-around;
+}
 .bodyy{
     margin-top: 20px;
-    width: 500px;
+    margin-left: 30px;
+    width: 800px;
     /* background-color: aqua; */
-    color: red;
     max-height: 500px;
-    position: relative;
     display: flex;
-    top: 600px;
     overflow-x: scroll;
 }
 .bodyy::-webkit-scrollbar{
