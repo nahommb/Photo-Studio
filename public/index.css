@@ -10,13 +10,16 @@
     height: 100px;
     width: 100%;
     border-bottom-left-radius: 100px;
-    position: relative;
+    position: fixed;
     top: 0px;
     z-index: 11;
 }
 .boarding{
-    /* background-image: url('/src/Assets/back1.png'); */
-    background-color: bisque;
+    /* background-image: url('https://picsum.photos/700'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(174, 154, 129);
 
     height: 700px;
     width: 100%;
@@ -57,4 +60,5 @@
     background-image: url('https://picsum.photos/500/500'); 
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
