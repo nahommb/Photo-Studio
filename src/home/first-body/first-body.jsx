@@ -1,5 +1,5 @@
 import React from "react";
-function MainBody(){
+function FirstBody(){
    const list = [
     'lee',
     'dude',
@@ -21,4 +21,4 @@ function MainBody(){
     </section> 
 }
 
-export default MainBody;
+export default FirstBody;

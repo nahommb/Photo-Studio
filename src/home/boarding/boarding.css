@@ -1,0 +1,12 @@
+.boarding{
+    /* background-image: url('https://picsum.photos/700'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: silver;
+
+    height: 700px;
+    width: 100%;
+    /* position: absolute; */
+   
+}

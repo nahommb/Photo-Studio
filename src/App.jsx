@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "./Header";
-import Boarding from "./Boarding";
-import MainBody from "./models/MainBody";
-import MiddleBody from "./models/middleBody";
-import ThirdBody from "./models/ThirdBody";
+import Header from "./home/header/Header";
+import Boarding from "./home/boarding/Boarding";
+import FirstBody from "./home/first-body/first-body";
+import SecondBody from "./home/second-body/second-body";
+import ThirdBody from "./home/third-body/thirdBody";
 function App(){
 
 return<div>
   <Header></Header>
   <Boarding></Boarding>
-  <MiddleBody></MiddleBody>
-  <MainBody></MainBody>
+  <SecondBody></SecondBody>
+  <FirstBody></FirstBody>
   <ThirdBody></ThirdBody>
 </div>
 

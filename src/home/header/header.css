@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    background-color:white;
+    height: 100px;
+    width: 100%;
+    border-bottom-left-radius: 100px;
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+}

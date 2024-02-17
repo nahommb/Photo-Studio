@@ -1,5 +1,5 @@
 import React from "react";
-function MiddleBody(){
+function SecondBody(){
 const list =[
    'kal',
    'messi',
@@ -32,4 +32,4 @@ const list =[
     </section>
 }
 
-export default MiddleBody;
+export default SecondBody;
