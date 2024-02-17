@@ -16,7 +16,7 @@ const list =[
      </div>
     {list.map((list,index)=>
     <div key={index} className="item">
-        <img src={"https://picsum.photos/id/231/300/200"} style={{borderRadius:'30px'}}></img>
+        <img className="ad-img" src={"https://picsum.photos/id/231/300/200"}></img>
         <div style={{padding:'15px'}}>
              <h3>22 Furnished Apartment YH - 0203</h3>
                 <p> 3 bed rooms in Addis Ababa</p> 

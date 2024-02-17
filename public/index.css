@@ -89,14 +89,29 @@
     margin-right: 30px;
     text-align: end;
 }
-
+.ad-img{
+    border-radius: 30px;
+    width: 300px;
+}
 @media screen and (min-width:700px){
-    .middle-body{
-        /* height: 1000px; */
-    }
+  
+
     .middle-body .item{
     
         height: 370px;
+        width: 300px;
+       
+    }
+}
+@media screen and (max-width:600px) {
+    .ad-img{
+        /* border-radius: 50px; */
+        width: 200px; 
+        
+     }
+     .middle-body .item{
+        width: 200px;
+        height: 340px;
         /* background-color: aqua; */
     }
 }
