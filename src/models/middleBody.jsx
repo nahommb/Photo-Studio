@@ -9,8 +9,8 @@ const list =[
 ]
     return <section className="middle-body">
      <div className="item-one">
-        <h1 style={{fontSize:'30px',color:"silver"}}>BEST </h1>
-        <h1 style={{color:"red",fontSize:'30px',marginBottom:'20px'}}>STAYS</h1>
+        <h1 style={{fontSize:'40px',color:"silver"}}>BEST </h1>
+        <h1 style={{color:"red",fontSize:'40px',marginBottom:'20px'}}>STAYS</h1>
         <p>Best of YegnaHome</p>  
         
      </div>

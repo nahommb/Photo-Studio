@@ -30,17 +30,18 @@
 .middle-section{
      /* position: relative;  */
      /* top: 600px; */
+    
      display: flex;
      align-items: center;
      background-color: aliceblue;
-     justify-content: space-around;
+     justify-content: end;
      font-family: "Chivo", sans-serif;
   
    
 }
 .bodyy{
-    margin-top: 20px;
-    /* margin-left: 30px; */
+    margin: 20px 40px 10px 70px;
+   
     width: 800px;
     /* background-color: aqua; */
     max-height: 550px;
@@ -53,9 +54,9 @@
 }
 .bodyy .dv1{
     background-color: blue;
-    height: 500px;
-    margin: 5px;
-    min-width: 300px;
+    height: 450px;
+    margin: 10px;
+    min-width: 250px;
     border-radius: 30px;
     background-image: url('https://picsum.photos/500/500'); 
     background-repeat: no-repeat;
@@ -93,6 +94,17 @@
     border-radius: 30px;
     width: 300px;
 }
+.third-body{
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.third-body .container{
+  
+    margin: 20px;
+    background-color: black;
+}
 @media screen and (min-width:700px){
   
 
@@ -114,4 +126,24 @@
         height: 340px;
         /* background-color: aqua; */
     }
+    .bodyy .dv1{
+
+        min-width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+    .middle-section{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+        padding: 30px;
+        text-align: center;
+        margin: 0px;
+    
+    }
+    .bodyy{
+        margin:0px;
+        width: 300px;
+       
+    }
+   
 }
