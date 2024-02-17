@@ -12,7 +12,7 @@ const list =[
     {list.map((list,index)=>
     <div key={index} className="item">
 
-   <h1>{list[index]}</h1> 
+   <h1>{list}</h1> 
 
     </div>)}
           
