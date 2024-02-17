@@ -23,13 +23,13 @@
 
     height: 700px;
     width: 100%;
-    position: absolute;
-    top: 0px;
+    /* position: absolute; */
+   
 }
 
 .middle-section{
-     position: relative; 
-     top: 600px;
+     /* position: relative;  */
+     /* top: 600px; */
      display: flex;
      align-items: center;
      background-color: aliceblue;
@@ -61,4 +61,33 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.middle-body{
+    margin: 20px;
+    display: grid;
+    /* position: relative; */
+    /* top: 700px; */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px)); 
+    grid-gap: 10px;
+    /* height: 700px; */
+    /* background-color: black; */
+   
+
+}
+.middle-body .item{
+    border-radius: 30px;
+    box-shadow: 5px 2px 4px 1px silver;
+    height: 300px;
+    background-color: aqua;
+}
+
+@media screen and (min-width:700px){
+    .middle-body{
+        /* height: 1000px; */
+    }
+    .middle-body .item{
+    
+        height: 400px;
+        /* background-color: aqua; */
+    }
 }
