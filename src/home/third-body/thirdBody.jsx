@@ -2,7 +2,8 @@ import React from "react";
 
 function ThirdBody(){
 
-    return <section className="third-body">
+    return <section className="third-section">
+      <div className="third-body">
          <div className="container">
 
          <p style={{fontSize:'30px'}}><span style={{fontWeight:'bold'}}>Make money </span>hosting your place </p> 
@@ -15,6 +16,8 @@ function ThirdBody(){
             <img className = "ad-img-third-body" src="https://picsum.photos/400/400"></img>
          </div>
 
+    </div>
     </section>
+    
 }
 export default ThirdBody;

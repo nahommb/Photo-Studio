@@ -1,4 +1,55 @@
 .fourth-body{
     height: 30rem;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: "Chivo", sans-serif;
+    padding: 30px;
+  
+}
+.fourth-body .f-container{
+    margin: 20px 40px 10px 70px;
+  
+    width: 800px;
+    /* background-color: aqua; */
+    max-height: 550px;
+    display: flex;
+    overflow-x: scroll;
+}
+.f-container::-webkit-scrollbar{
+    width: 0px;
+}
+.fourth-body .f-dv1{
+    background-color: white;
+    height: 280px;
+    margin: 10px;
+    min-width: 250px;
+    border-radius: 30px 30px 30px 10px;
+
+}
+.f-body-img{
+    height:280px;
+    width: 250px;
+    border-radius: 30px 30px 30px 10px;
+
+}
+@media screen and (max-width:600px) {
+    .f-dv1{
+        
+        min-width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .f-container{
+        margin:0px;
+        width: 300px;
+       
+    }
+    .fourth-body{
+      
+        justify-content: center;
+    }
+   
 }

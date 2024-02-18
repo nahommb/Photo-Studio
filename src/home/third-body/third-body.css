@@ -1,11 +1,15 @@
+.third-section{
+    background-color: black;
+}
 .third-body{
-    background-color: rgba(210, 0, 0, 0.027);
+    background-color: white;
     padding: 20px;
     /* height: 300px; */
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius:0px 0px 100px 0px;
+    border-radius:0px 0px 95px 0px;
+  
 }
 .third-body .container{
     width: 40rem;
@@ -26,14 +30,15 @@
     font-size: 1.2rem;
 }
 .ad-img-third-body{
-    border-radius: 20px;
+    border-radius:8px 8px 95px 8px;
     width: 30rem;
     height: 20rem;
 }
 @media screen and (max-width:600px) {
     .third-body{
-        display: grid;
+        display: block;
         justify-content: center;
+        height: 40rem;
     }
     .third-body .container{
         width: 100%;
