@@ -36,7 +36,7 @@
 }
 @media screen and (max-width:600px) {
     .bodyy .dv1{
-
+        
         min-width: 200px;
         height: 200px;
         margin: 10px;
@@ -46,6 +46,10 @@
         margin:0px;
         width: 300px;
        
+    }
+    .middle-section{
+      
+        justify-content: center;
     }
    
 }

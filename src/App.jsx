@@ -4,6 +4,7 @@ import Boarding from "./home/boarding/Boarding";
 import FirstBody from "./home/first-body/first-body";
 import SecondBody from "./home/second-body/second-body";
 import ThirdBody from "./home/third-body/thirdBody";
+import FourthBody from "./home/fourth-body/fourth-body";
 function App(){
 
 return<div>
@@ -12,6 +13,7 @@ return<div>
   <SecondBody></SecondBody>
   <FirstBody></FirstBody>
   <ThirdBody></ThirdBody>
+  <FourthBody></FourthBody>
 </div>
 
 }
