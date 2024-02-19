@@ -2,5 +2,15 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-  
+   
+}
+.fixed{
+ background-image: url('/src/Assets/gheralta.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ position: fixed;
+ height: 600rem;
+ width: 100%;
+ z-index: -11;
 }

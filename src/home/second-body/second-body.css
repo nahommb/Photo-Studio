@@ -1,5 +1,6 @@
 .middle-body{
-    margin: 40px 100px 40px 100px;
+    margin: 40px 0px 0px 0px;
+    padding: 40px;
     display: grid;
     align-items: center;
     align-content: center;
@@ -10,7 +11,7 @@
     grid-gap: 10px;
     /* height: 700px; */
     /* background-color: black; */
-   
+     background-color: white;
 
 }
 .middle-body .item{

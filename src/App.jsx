@@ -7,10 +7,12 @@ import ThirdBody from "./home/third-body/thirdBody";
 import FourthBody from "./home/fourth-body/fourth-body";
 import FifthBody from "./home/fifth-body/fifth-body";
 import SixthBody from "./home/sixth/sixth-body"
+import Fixed from "./home/Fixed-back/fixed";
 
 function App(){
 
-return<div>
+return<div className="app">
+  <Fixed></Fixed>
   <Header></Header>
   <Boarding></Boarding>
   <SecondBody></SecondBody>

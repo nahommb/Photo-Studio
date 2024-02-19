@@ -7,6 +7,9 @@
     padding: 70px 30px;
     justify-content: center;
 }
+.sixth-body{
+    background-color: white;
+}
 .sixth-body .dv-one div{
     height: 200px;
     /* background-color: blue; */
