@@ -6,17 +6,37 @@ function SixthBody(){
        <div className="dv-one">
             <div>
                 <h3 style={{marginBottom:"20px"}}>Yegna Home</h3>
-                <p>About us</p>
-                <p>Contact us</p>
+                <p style={{marginBottom:"20px"}}>About us</p>
+                <p style={{marginBottom:"20px"}}>Contact us</p>
                 <p>Blog</p>
 
             </div>
-            <div>2</div>
-            <div>3</div>
+            <div>
+                <h3 style={{marginBottom:"20px"}}>Yegna Home</h3>
+                <p style={{marginBottom:"20px"}}>About us</p>
+                <p style={{marginBottom:"20px"}}>Contact us</p>
+                <p>Blog</p>
+
+            </div>
+            <div>
+                <h3 style={{marginBottom:"20px"}}>Yegna Home</h3>
+                <p style={{marginBottom:"20px"}}>About us</p>
+                <p style={{marginBottom:"20px"}}>Contact us</p>
+                <p>Blog</p>
+
+            </div>
 
        </div>
-       <div className="dv-two">
-
+       <div className="div-two">
+            <div> &copy; 2022 Yegna Home. All rights reserved</div>
+            <div></div>
+            <div style={{textAlign:'center',display:'block'}}>
+                <p>Powered by : <span style={{color:'red'}}>bugulu bangala</span>
+                  <br></br>
+                   Designed by: <span style={{color:'red'}}>chakiso chalba</span> 
+                </p>
+                
+            </div>
        </div>
     </section>
 }

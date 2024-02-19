@@ -1,18 +1,33 @@
 .sixth-body .dv-one{
     height: 400px;
     background-color:white;
-    border-radius: 0px 0px 0px 250px;
-    box-shadow: -4px 7px 40px 15px silver;
+    border-radius: 0px 0px 0px 200px;
+    box-shadow: -4px 7px 30px 10px silver;
     display: flex;
-    padding: 30px;
+    padding: 70px 30px;
     justify-content: center;
-}
-.sixth-body .dv-two{
-    height: 70px;
 }
 .sixth-body .dv-one div{
     height: 200px;
     /* background-color: blue; */
-    width: 200px;
+    width: 400px;
     text-align: center;
+}
+.sixth-body .div-two{
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sixth-body .div-two div{
+    height: 50px;
+    width: 400px;
+    /* background-color: rgb(96, 184, 184); */
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
