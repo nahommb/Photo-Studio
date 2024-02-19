@@ -7,3 +7,10 @@
     background-position: center;
     /* position: fixed; */
 }
+.fifth-body .item{
+    height: 200px;
+    background-color: aqua;
+    position: fixed;
+    top: 150rem;
+    z-index: 90;
+}
