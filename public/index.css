@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   
+    transition: bodyanim,1s;
 }
 .fixed{
  background-image: url('/src/Assets/gheralta.jpg');
@@ -13,4 +13,19 @@
  height: 60rem;
  width: 100%;
  z-index: -11;
+}
+@media screen and (max-width:800px) {
+    .fixed{
+        display: none;
+    }
+}
+@keyframes bodyanim {
+    from{
+      margin: 0;
+    }
+    to{
+       margin: 40px;
+       padding: 50px;
+       
+    }
 }

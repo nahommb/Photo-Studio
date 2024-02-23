@@ -5,12 +5,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: black;
+    opacity: 0.6;
     /* position: fixed; */
 }
 .fifth-body .item{
     height: 200px;
-    background-color: aqua;
-    position: fixed;
+    /* background-color: aqua; */
+    /* position: fixed; */
     top: 150rem;
-    z-index: 90;
+    /* z-index: 90; */
 }
