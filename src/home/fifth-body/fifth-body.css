@@ -16,3 +16,8 @@
     top: 150rem;
     /* z-index: 90; */
 }
+@media screen and (max-width:800px) {
+    .fifth-body{
+        display: none;
+    }
+}

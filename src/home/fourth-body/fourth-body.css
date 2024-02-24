@@ -21,15 +21,15 @@
     width: 0px;
 }
 .fourth-body .f-dv1{
-    background-color: white;
-    height: 280px;
+    /* background-color: white; */
+    /* height: 280px; */
     margin: 10px;
-    min-width: 250px;
+    /* min-width: 250px; */
     border-radius: 30px 30px 30px 10px;
 
 }
 .f-body-img{
-    height:280px;
+    /* height:280px; */
     width: 250px;
     border-radius: 30px 30px 30px 10px;
 
@@ -37,19 +37,27 @@
 @media screen and (max-width:600px) {
     .f-dv1{
         
-        min-width: 200px;
+        /* min-width: 200px; */
         height: 200px;
         margin: 10px;
     }
 
     .f-container{
         margin:0px;
-        width: 300px;
+        max-width: 18rem;
+        /* background-color: aqua; */
        
     }
+    .f-body-img{
+        height:200px;
+        width: 200px;
+        border-radius: 30px 30px 30px 10px;
+    
+    }
     .fourth-body{
-      
-        justify-content: center;
+       /* background-color: blue; */
+        display: grid;
+        
     }
    
 }

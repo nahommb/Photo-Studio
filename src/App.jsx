@@ -15,8 +15,8 @@ return<div className="app">
   <Fixed></Fixed>
   <Header></Header>
   <Boarding></Boarding>
-  <SecondBody></SecondBody>
   <FirstBody></FirstBody>
+  <SecondBody></SecondBody>
   <ThirdBody></ThirdBody>
   <FourthBody></FourthBody>
   <FifthBody></FifthBody>

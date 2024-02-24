@@ -34,11 +34,11 @@
     width: 30rem;
     height: 20rem;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .third-body{
         display: block;
         justify-content: center;
-        height: 40rem;
+        height: 43rem;
     }
     .third-body .container{
         width: 100%;
@@ -47,6 +47,7 @@
         height: 15rem;
     }
     .ad-img-third-body{
+        height: 25rem;
         width: 100%
     }
 }
