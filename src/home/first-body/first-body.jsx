@@ -10,8 +10,9 @@ const list =[
    'Roony'
 ]
 
-function showDetail(){
+const showDetail = ()=>{
    console.log('pressed')
+   window.scrollTo(0,0);
 }
 
     return <section className="middle-body">
