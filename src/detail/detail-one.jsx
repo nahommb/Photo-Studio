@@ -20,7 +20,9 @@ function DetailOne(){
                 <div></div>
 
               </div>
-              <div></div>
+              <div>
+                
+              </div>
          </div>
     </section>
 }
