@@ -7,4 +7,5 @@
     position: fixed;
     top: 0px;
     z-index: 11;
+    box-shadow: 2px 2px 30px silver;
 }
