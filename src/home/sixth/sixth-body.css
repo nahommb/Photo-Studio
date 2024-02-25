@@ -9,6 +9,7 @@
 }
 .sixth-body{
     background-color: white;
+    z-index: 10;
 }
 .sixth-body .dv-one div{
     height: 200px;
