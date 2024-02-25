@@ -6,10 +6,11 @@
     display: flex;
     padding: 70px 30px;
     justify-content: center;
+    
 }
 .sixth-body{
     background-color: white;
-    z-index: 10;
+    
 }
 .sixth-body .dv-one div{
     height: 200px;

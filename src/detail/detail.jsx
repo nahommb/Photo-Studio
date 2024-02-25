@@ -8,6 +8,7 @@ function Detail(){
     return<section className="detail-container">
         <Header/>
         <DetailOne/>
+        <div style={{height:'50%'}}></div>
         <SixthBody/>
     </section>
 }
