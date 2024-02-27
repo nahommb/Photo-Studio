@@ -1,6 +1,7 @@
 import DetailForm from "./detail-form"
 import React from "react";
-
+import { Delete } from "@mui/icons-material";
+import { Button } from "@mui/material";
 
 class DetailOne extends React.Component {
 
@@ -33,7 +34,7 @@ class DetailOne extends React.Component {
          <div className="detail-one-item-2">
               <div className="photo-1"></div>
               <div className="scroll-container">
-                <button onClick={this.scrollToLeft}>left</button>
+                <Button onClick={this.scrollToLeft}> <Delete/> </Button>
                   <div id = "scrollTarget" className="scroll-photo">
                          <div></div>
                          <div></div>
