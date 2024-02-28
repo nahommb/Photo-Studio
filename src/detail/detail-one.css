@@ -80,7 +80,7 @@
 @media screen and (min-width:900px) {
   
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:1200px) {
     .detail-one-item-1{
         /* width: 100px; */
         /* background-color: blue; */
@@ -89,7 +89,10 @@
     .detail-one-item-2{
         width: 100%;
     }
- 
+    .scroll-photo div{
+        min-width: 150px;
+        height: 100px;
+    }
 }
 @media screen and (max-width:600px) {
        .photo-1{
