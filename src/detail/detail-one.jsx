@@ -1,7 +1,7 @@
 import DetailForm from "./detail-form"
 import React from "react";
-import { ArrowBack , ArrowForward } from "@mui/icons-material";
-import { Button } from "@mui/material";
+import { NavigateBefore , NavigateNext } from "@mui/icons-material";
+import { IconButton } from "@mui/material";
 
 class DetailOne extends React.Component {
 
@@ -34,7 +34,7 @@ class DetailOne extends React.Component {
          <div className="detail-one-item-2">
               <div className="photo-1"></div>
               <div className="scroll-container">
-                <Button color="primary" onClick={this.scrollToLeft}> <ArrowBack/> </Button>
+                <IconButton onClick={this.scrollToLeft}> <NavigateBefore/> </IconButton>
                   <div id = "scrollTarget" className="scroll-photo">
                          <div></div>
                          <div></div>
@@ -50,7 +50,7 @@ class DetailOne extends React.Component {
                          <div></div>
 
                     </div>
-               <Button onClick={this.scrollToRight}> <ArrowForward/> </Button>
+               <IconButton onClick={this.scrollToRight}> <NavigateNext/> </IconButton>
                
               </div>
            

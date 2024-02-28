@@ -30,11 +30,17 @@
     align-items: center;
 }
 .btn{
-    background-color: red;
+    /* background-color: red; */
+    border: none;
     border-radius: 50%;
-    height: 30px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     margin: 10px;
+    color: blue;
+}
+.btn :hover{
+    background-color: silver;
+    cursor: pointer;
 }
 .detail-one-item-2{
    /* height: 50rem; */
@@ -70,6 +76,7 @@
 .scroll-photo::-webkit-scrollbar{
     width: 0px;
 }
+
 @media screen and (min-width:900px) {
   
 }
