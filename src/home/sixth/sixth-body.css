@@ -36,3 +36,22 @@
     display: flex;
     align-items: center;
 }
+@media screen and (max-width:600px) {
+
+    .sixth-body .dv-one{
+        /* background-color: aqua; */
+        height: 220px;
+        font-size: 13px;
+        padding: 20px;
+    }
+    .sixth-body .div-two{
+        /* background-color: blue; */
+       font-size: 10px;
+       padding: 0px;
+    }
+    .sixth-body .div-two div{
+    
+        margin: 0px;
+        justify-content: center;
+    }
+}

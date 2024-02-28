@@ -30,7 +30,7 @@ function SixthBody(){
        <div className="div-two">
             <div> &copy; 2022 Yegna Home. All rights reserved</div>
             <div></div>
-            <div style={{textAlign:'center',display:'block'}}>
+            <div style={{textAlign:'center'}}>
                 <p>Powered by : <span style={{color:'red'}}>bugulu bangala</span>
                   <br></br>
                    Designed by: <span style={{color:'red'}}>chakiso chalba</span> 
