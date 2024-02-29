@@ -12,7 +12,7 @@
 .head-container{
 display: flex;
 justify-content: space-between;
-background-color: bisque;
+/* background-color: bisque; */
 width: 100%;
 margin: 10px 30px 10px 60px;
 padding: 15px;
