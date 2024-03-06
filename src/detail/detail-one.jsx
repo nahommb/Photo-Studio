@@ -19,8 +19,17 @@ class DetailOne extends React.Component {
           }
         };
 
+  
 
-    render() {
+    render() {      
+      const imagList =[
+          'kal',
+          'messi',
+          'ronaldo',
+          'neymar',
+          'Roony'
+       ]
+
      return (
        <div> 
           <div className="detail-one-item-1">
@@ -32,10 +41,17 @@ class DetailOne extends React.Component {
          </div>
      <section className="detail-one">
          <div className="detail-one-item-2">
-              <div className="photo-1"></div>
+              <div className="photo-1">
+                <img src="https://picsum.photos/id/149/500/500"></img>
+              </div>
               <div className="scroll-container">
                 <IconButton onClick={this.scrollToLeft}> <NavigateBefore/> </IconButton>
                   <div id = "scrollTarget" className="scroll-photo">
+                  {imagList.map((list,index)=><img key={index} src="https://picsum.photos/id/249/500/500"></img>
+                  
+                   )}
+                        
+                         {/* <div></div>
                          <div></div>
                          <div></div>
                          <div></div>
@@ -45,9 +61,7 @@ class DetailOne extends React.Component {
                          <div></div>
                          <div></div>
                          <div></div>
-                         <div></div>
-                         <div></div>
-                         <div></div>
+                         <div></div> */}
 
                     </div>
                <IconButton onClick={this.scrollToRight}> <NavigateNext/> </IconButton>

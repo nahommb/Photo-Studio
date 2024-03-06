@@ -6,14 +6,14 @@
     background-size: cover;
     background-position: center;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.4;
     /* position: fixed; */
 }
 .fifth-body .item{
     height: 200px;
     /* background-color: aqua; */
     /* position: fixed; */
-    top: 150rem;
+    /* top: 150rem; */
     /* z-index: 90; */
 }
 @media screen and (max-width:800px) {

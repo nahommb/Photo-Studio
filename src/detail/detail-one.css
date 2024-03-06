@@ -54,8 +54,13 @@
     height: 500px;
     width: 80%;
     border-radius: 30px;
-    background-color: rgb(27, 107, 107);
+    background-color: wheat;
     margin-bottom: 15px;
+}
+.photo-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
 }
 .scroll-photo{
     /* height: 150px; */
@@ -66,13 +71,15 @@
     /* align-items: center; */
     overflow-x: auto;
 }
-.scroll-photo div{
+
+.scroll-photo img{
     min-width: 250px;
     height: 160px;
-    background-color: black;
+    background-color:black;
     margin: 5px;
     border-radius: 25px 25px 25px 5px;
 }
+
 .scroll-photo::-webkit-scrollbar{
     width: 0px;
 }
