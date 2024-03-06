@@ -6,12 +6,21 @@
     background-size: cover;
     background-position: center;
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    
     /* position: fixed; */
 }
 .fifth-body .item{
     height: 200px;
     /* background-color: aqua; */
+    color:white;
+    text-align: center;
+    margin-top: 13%;
+    /* text-align: justify; */
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* position: fixed; */
     /* top: 150rem; */
     /* z-index: 90; */
