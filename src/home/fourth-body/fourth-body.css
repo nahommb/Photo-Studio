@@ -3,60 +3,64 @@
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     font-family: "Chivo", sans-serif;
     padding: 30px;
+    padding-right: 200px;
   
 }
-.fourth-body .f-container{
+.f-container{
     margin: 20px 40px 10px 70px;
-  
-    width: 800px;
     /* background-color: aqua; */
     max-height: 550px;
     display: flex;
     overflow-x: scroll;
 }
+
+
 .f-container::-webkit-scrollbar{
     width: 0px;
 }
-.fourth-body .f-dv1{
-    /* background-color: white; */
-    /* height: 280px; */
-    margin: 10px;
-    /* min-width: 250px; */
-    border-radius: 30px 30px 30px 10px;
+
+.f-description{
+    text-align:end; 
+    /* background-color:red; */
+    width:80%;
+    margin:0px;
 
 }
+
+
 .f-body-img{
     /* height:280px; */
-    width: 250px;
+    width: 17rem;
+    height: 15rem;
     border-radius: 30px 30px 30px 10px;
-
+    margin: 10px;
 }
 @media screen and (max-width:600px) {
-    .f-dv1{
-        
-        /* min-width: 200px; */
-        height: 200px;
-        margin: 10px;
-    }
+
 
     .f-container{
         margin:0px;
         max-width: 18rem;
+        height: 13rem;
         /* background-color: aqua; */
+       
+        /* justify-content: center; */
        
     }
     .f-body-img{
-        height:200px;
-        width: 200px;
-        border-radius: 30px 30px 30px 10px;
-    
+      
+        height: 10rem;
+        width: 15rem;
     }
+
     .fourth-body{
        /* background-color: blue; */
         display: grid;
+        padding-right: 20px;
+    
         
     }
    

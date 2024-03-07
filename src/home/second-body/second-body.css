@@ -23,6 +23,14 @@
 .bodyy::-webkit-scrollbar{
    width: 0px;
 }
+.second-body-description{
+  
+  text-align: end;
+}
+.second-body-description h1{
+    font-size: 45ppx;
+
+}
 .bodyy .dv1{
    background-color: white;
    height: 450px;
@@ -49,7 +57,15 @@
     }
     .middle-section{
         justify-content: center;
+    } 
+    .second-body-description{
+        font-size: 11px;
+        padding: 13px;
     }
+    .second-body-description h1{
+        font-size: 20px;
+      }
+   
    
 }
 .bodyy .dv1:hover{

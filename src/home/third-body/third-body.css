@@ -47,7 +47,16 @@
         height: 15rem;
     }
     .ad-img-third-body{
-        height: 25rem;
+        height: 24rem;
         width: 100%
+    }
+}
+@media screen and (max-width:600px) {
+    .third-body{
+        height: 34rem;
+        font-size: 15px;
+    }
+    .ad-img-third-body{
+        height: 15rem;
     }
 }
