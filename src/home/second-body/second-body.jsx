@@ -1,10 +1,10 @@
 import React from "react";
 function SecondBody(){
    const list = [
-    'lee',
-    'dude',
-    'andress',
-    'garnacho'
+    'Lee',
+    'Dude',
+    'Andress',
+    'Garnacho'
    ]
     return <section className="middle-section">
     <div className="second-body-description">
@@ -14,7 +14,10 @@ function SecondBody(){
     </div>
         <div className="bodyy">
                {list.map((list,index)=> 
-               <div className="dv1">{list}</div>)
+               <div className="dv">
+               <img className="dv1" src="https://picsum.photos/300/500"></img>
+               <h4>{list}</h4>
+               </div>)
                }
 
     </div>

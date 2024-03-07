@@ -7,7 +7,7 @@
     background-color: aliceblue;
     justify-content: end;
     font-family: "Chivo", sans-serif;
- 
+   
   
 }
 .bodyy{
@@ -24,12 +24,16 @@
    width: 0px;
 }
 .second-body-description{
-  
+  margin-left: 20px;
   text-align: end;
 }
 .second-body-description h1{
-    font-size: 45ppx;
+    font-size: 45px;
 
+}
+.bodyy .dv{
+    align-items: center;
+    text-align: center;
 }
 .bodyy .dv1{
    background-color: white;
@@ -37,10 +41,10 @@
    margin: 10px;
    min-width: 250px;
    border-radius: 30px;
-   background-image: url('https://picsum.photos/500/500'); 
+   /* background-image: url('https://picsum.photos/500/500'); 
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: center;
+   background-position: center; */
 }
 @media screen and (max-width:600px) {
     .bodyy .dv1{

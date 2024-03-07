@@ -79,9 +79,10 @@
         display: flex;
         overflow-x: scroll;
         /* height: 25rem; */
-        min-width: 22rem;
+         width: 100%;
         justify-content:space-between;
         /* align-items: center; */
+        padding: 2px;
         
     }
     .middle-body .item-container::-webkit-scrollbar{
