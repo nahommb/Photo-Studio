@@ -1,7 +1,9 @@
 import DetailForm from "./detail-form"
 import React from "react";
-import { NavigateBefore , NavigateNext } from "@mui/icons-material";
+import { NavigateBefore , NavigateNext ,CorporateFare } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
+import ListContainer from "../components/list-container";
+
 
 class DetailOne extends React.Component {
 
@@ -50,26 +52,15 @@ class DetailOne extends React.Component {
                   {imagList.map((list,index)=><img key={index} src="https://picsum.photos/id/249/500/500"></img>
                   
                    )}
-                        
-                         {/* <div></div>
-                         <div></div>
-                         <div></div>
-                         <div></div>
-                         <div></div>
-                         <div></div>
-                         <div></div>
-                         <div></div>
-                         <div></div>
-                         <div></div>
-                         <div></div> */}
-
                     </div>
                <IconButton onClick={this.scrollToRight}> <NavigateNext/> </IconButton>
                
               </div>
            
               <div className="detail-one-item-3">
-                akwjkdjawd
+                
+                <ListContainer title='Shared Room' subtitle='Areas of the property made available by the owner'></ListContainer>
+
               </div>
          </div>
     </section>

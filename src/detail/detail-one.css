@@ -22,8 +22,12 @@
  text-align: end;
 }
 .detail-one-item-3{
+    margin-top: 5rem;
     height: 30rem;
-    background-color: red;
+    color: rgb(133, 130, 130);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    /* background-color: red; */
+
 }
 .scroll-container{
     display: flex;
