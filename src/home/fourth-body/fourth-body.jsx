@@ -1,10 +1,18 @@
 import React from "react";
 import FirstBody from "../first-body/first-body";
+import mekelle from '../../Assets/mekelle.jpg';
+import gondare from '../../Assets/gondar.jpg';
+import axum from '../../Assets/axum.jpg';
+import jimma from '../../Assets/jimma.jpg';
+
 
 function FourthBody(){
 
   const list =[
-    1,2,3,4
+    mekelle,
+    axum,
+    jimma,
+    gondare
   ]
 
     return <section className="fourth-body">
@@ -15,7 +23,7 @@ function FourthBody(){
          </div>
          <div className="f-container">
          {list.map((list,index)=>
-            <img className=" f-body-img" src="https://picsum.photos/id/233/1000/700"></img>
+            <img className=" f-body-img" src={list}></img>
           )}
          </div>
        

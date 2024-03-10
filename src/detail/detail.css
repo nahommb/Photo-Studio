@@ -1,4 +1,6 @@
 .detail-container{
     height: 100vh;
     /* background-color: aqua; */
+    transition: 6s;
 }
+
