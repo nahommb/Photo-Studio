@@ -1,11 +1,16 @@
 import React from "react";
+import mekelle from '../../Assets/mekelle.jpg';
+import gondare from '../../Assets/gondar.jpg';
+import axum from '../../Assets/axum.jpg';
+import jimma from '../../Assets/jimma.jpg';
+
 function SecondBody(){
-   const list = [
-    'Lee',
-    'Dude',
-    'Andress',
-    'Garnacho'
-   ]
+    const list =[
+        mekelle,
+        axum,
+        jimma,
+        gondare
+      ]
     return <section className="middle-section">
     <div className="second-body-description">
                     <h1 style={{color:'red',}}> PROPERTY </h1>
@@ -15,7 +20,7 @@ function SecondBody(){
         <div className="bodyy">
                {list.map((list,index)=> 
                <div className="dv">
-               <img className="dv1" src="https://picsum.photos/300/500"></img>
+               <img className="dv1" src={list}></img>
                <h4>{list}</h4>
                </div>)
                }
