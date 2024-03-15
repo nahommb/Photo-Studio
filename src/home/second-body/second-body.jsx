@@ -1,16 +1,18 @@
 import React from "react";
 import mekelle from '../../Assets/mekelle.jpg';
-import gondare from '../../Assets/gondar.jpg';
+import gondar from '../../Assets/gondar.jpg';
 import axum from '../../Assets/axum.jpg';
 import jimma from '../../Assets/jimma.jpg';
 
 function SecondBody(){
-    const list =[
-        mekelle,
-        axum,
-        jimma,
-        gondare
-      ]
+    const list ={
+        mekelle:mekelle,
+        axum:axum,
+        jimma:jimma,
+        gondare:gondar
+    }
+     
+
     return <section className="middle-section">
     <div className="second-body-description">
                     <h1 style={{color:'red',}}> PROPERTY </h1>
@@ -18,10 +20,10 @@ function SecondBody(){
                     <p>Properties you can<br/> reserve on Yegna <br/> Home.</p>
     </div>
         <div className="bodyy">
-               {list.map((list,index)=> 
+               {Object.entries(list).map(([key,value])=> 
                <div className="dv">
-               <img className="dv1" src={list}></img>
-               <h4>{list}</h4>
+               <img className="dv1" src={value}></img>
+               <h4>{key}</h4>
                </div>)
                }
 

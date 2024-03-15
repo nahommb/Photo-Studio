@@ -6,7 +6,7 @@
     align-items: center;
     background-color: aliceblue;
     justify-content: end;
-    font-family: "Chivo", sans-serif;
+   
    
   
 }
@@ -34,12 +34,14 @@
 .bodyy .dv{
     align-items: center;
     text-align: center;
+    width: 300px;
+    margin-left: 10px;
 }
 .bodyy .dv1{
    background-color: white;
    height: 450px;
    margin: 10px;
-   min-width: 250px;
+   max-width: 300px;
    border-radius: 30px;
    /* background-image: url('https://picsum.photos/500/500'); 
    background-repeat: no-repeat;
