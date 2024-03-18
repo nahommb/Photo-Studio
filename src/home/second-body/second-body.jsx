@@ -3,13 +3,16 @@ import mekelle from '../../Assets/mekelle.jpg';
 import gondar from '../../Assets/gondar.jpg';
 import axum from '../../Assets/axum.jpg';
 import jimma from '../../Assets/jimma.jpg';
+import addis from '../../Assets/aa.jpg'
 
 function SecondBody(){
     const list ={
+        addis:addis,
         mekelle:mekelle,
         axum:axum,
         jimma:jimma,
         gondare:gondar
+
     }
      
 

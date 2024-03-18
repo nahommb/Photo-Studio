@@ -27,7 +27,7 @@ const showDetail = ()=>{
      </div>
      <div className="item-container">
         {list.map((list,index)=>
-        <Link className='link-detail' to={'/detail'} style={{textDecoration:'none'}}><div key={index} className="item" onClick={showDetail}>
+        <Link className='link-detail' to={'/detail'} style={{textDecoration:'none'}} ><div key={index} className="item" onClick={showDetail}>
         <img className="ad-img" src={"https://picsum.photos/id/231/300/200"}></img>
         <div style={{padding:'15px'}}>
              <h3>22 Furnished Apartment YH - 0203</h3>
