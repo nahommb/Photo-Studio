@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import { Link } from 'react-router-dom';
 
 function Header(){
     const [anchorEl, setAnchorEl] = useState(null);
@@ -19,7 +20,9 @@ function Header(){
               <div>Logo</div>
                <div className="head-container-right">
                
-               <div>Add A Property</div>
+               <div>
+               <Link to={'/detail'}  style={{textDecoration:'none'}}> Add A Property</Link>
+               </div>
                  <div className='lang-cont'>
                 <Button onClick={handleClick} style={{color:"red"}}>
                  Eng(US)
@@ -32,10 +35,10 @@ function Header(){
                 keepMounted
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
+                
                 >
-                <MenuItem onClick={handleClose}>Option 1</MenuItem>
-                <MenuItem onClick={handleClose}>Option 2</MenuItem>
-                <MenuItem onClick={handleClose}>Option 3</MenuItem>
+                <MenuItem onClick={handleClose}>Eng</MenuItem>
+                <MenuItem onClick={handleClose}>Amh</MenuItem>
                 </Menu>
                
                </div>
