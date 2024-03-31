@@ -18,6 +18,10 @@ margin: 10px 30px 10px 60px;
 padding: 15px;
 align-items: center;
 }
+.lang-cont:hover{
+    border: 2px solid rgb(233, 12, 12);
+    border-radius: 15px 15px 15px 2px;
+}
 .head-container-right{
     width: 40%;
     display: flex;

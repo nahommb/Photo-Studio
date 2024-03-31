@@ -1,12 +1,43 @@
-import React from "react";
-function Header(){
 
+import React, { useState } from 'react';
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+
+function Header(){
+    const [anchorEl, setAnchorEl] = useState(null);
+
+    const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+    };
+  
+    const handleClose = () => {
+      setAnchorEl(null);
+    };
     return <div className="header">
              <div className="head-container">
               <div>Logo</div>
                <div className="head-container-right">
-                <div>Add A Property</div>
-               <div>EngUSA</div>
+               
+               <div>Add A Property</div>
+                 <div className='lang-cont'>
+                <Button onClick={handleClick} style={{color:"red"}}>
+                 Eng(US)
+                </Button>
+                 </div>
+               
+                <Menu
+                id="simple-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+                >
+                <MenuItem onClick={handleClose}>Option 1</MenuItem>
+                <MenuItem onClick={handleClose}>Option 2</MenuItem>
+                <MenuItem onClick={handleClose}>Option 3</MenuItem>
+                </Menu>
+               
                </div>
                
                </div>

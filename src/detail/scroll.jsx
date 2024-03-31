@@ -1,35 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
 
-class HorizontalScrollButton extends React.Component {
-  scrollToLeft = () => {
-    const element = document.getElementById('scrollTarget');
-    if (element) {
-      element.scrollLeft -= 300; // Adjust the value as needed
-    }
+const PopMenu = () => {
+  const [anchorEl, setAnchorEl] = useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
   };
 
-  render() {
-    return (
-      <div>
-        <div id="scrollTarget" style={{ display: 'flex', width: '800px', overflow: 'auto' }}>
-          {/* Your content that can be horizontally scrolled */}
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
 
-            <div style={{height:'100px',minWidth:'300px',backgroundColor:'blue',margin:'10px'}}></div>
-            <div style={{height:'100px',minWidth:'300px',backgroundColor:'blue',margin:'10px'}}></div>
-            <div style={{height:'100px',minWidth:'300px',backgroundColor:'blue',margin:'10px'}}></div>
-            <div style={{height:'100px',minWidth:'300px',backgroundColor:'blue',margin:'10px'}}></div>
-            <div style={{height:'100px',minWidth:'300px',backgroundColor:'blue',margin:'10px'}}></div>
-            <div style={{height:'100px',width:'300px',backgroundColor:'blue',margin:'10px'}}></div>
-            <div style={{height:'100px',width:'200px',backgroundColor:'blue',margin:'10px'}}></div>
+  return (
+    <div>
+      <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+        Open Menu
+      </Button>
 
+      <Menu
+        id="simple-menu"
+        anchorEl={anchorEl}
+        keepMounted
+        open={Boolean(anchorEl)}
+        onClose={handleClose}
+      >
+        <MenuItem onClick={handleClose}>Option 1</MenuItem>
+        <MenuItem onClick={handleClose}>Option 2</MenuItem>
+        <MenuItem onClick={handleClose}>Option 3</MenuItem>
+      </Menu>
+      
+    </div>
+  );
+};
 
-        </div>
-        <button onClick={this.scrollToLeft}>
-          Scroll Left
-        </button>
-      </div>
-    );
-  }
-}
-
-export default HorizontalScrollButton;
+export default PopMenu;
